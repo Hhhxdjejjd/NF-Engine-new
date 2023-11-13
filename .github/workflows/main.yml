@@ -77,9 +77,6 @@ jobs:
         env:
           cert_pass: nullfunni
           cert_alias_pass: nullfunni
-
-      - name: Clear Previous Cache
-      
       - name: Upload Artifact
         uses: actions/upload-artifact@main
         with:
